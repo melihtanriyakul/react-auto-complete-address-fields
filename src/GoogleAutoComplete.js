@@ -79,7 +79,7 @@ export default class GoogleAutoComplete extends React.Component{
         if( this.place.address_components ){
             const addrComps = this.place.address_components;
             var matchForStreet1 = this.place.adr_address ? this.place.adr_address.match(/<span class="street-address">(.*?)<\/span>/) : false;
-            if( matchForStreet1 && matchForStreet1[1]) fields.streetAddress = matchForStreet1[1];
+            if( matchForStreet1 && matchForStreet1[1]) fieldsForState.streetAddress = matchForStreet1[1];
             const { fields } = this.props;
             Object.keys(addrComps).map((index) => {
                 const addrType = addrComps[index].types[0];

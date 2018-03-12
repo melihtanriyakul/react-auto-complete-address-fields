@@ -1,0 +1,8 @@
+{
+    "presets": ["env"],
+    "plugins": [
+      "css-modules-transform",
+      "transform-object-rest-spread",
+      "transform-react-jsx"
+    ]
+  }

@@ -1,0 +1,38 @@
+{
+  "name": "react-auto-complete-address-fields",
+  "version": "0.0.9",
+  "description": "This is a react component that uses 'Google Places API Web Service' to get an address and creates address fields based on this address.",
+  "main": "build/GoogleAutoComplete.js",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "clone": "^2.1.1",
+    "react": "^15.5.4",
+    "react-load-script": "0.0.6",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/melihtanriyakul/react-auto-complete-address-fields.git"
+  },
+  "author": {
+    "name": "Melih Tanriyakul",
+    "email": "melihtanriyakul@gmail.com"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-css-modules-transform": "^1.5.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
+}

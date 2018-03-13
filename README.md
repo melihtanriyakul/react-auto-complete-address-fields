@@ -6,7 +6,7 @@ This is a react component that creates address fields(Country, City, Zip Code, e
 ### Installing
 
 ```
-npm react-google-autocomplete-address-fields --save
+npm i react-google-autocomplete-address-fields --save
 ```
 
 You can include address fields as you want such as "route", "locality", etc and a callback function that you can customize the address data, deriven from Google Autocomplete. You should also include Google API key as a prop for Google Autocomplete.

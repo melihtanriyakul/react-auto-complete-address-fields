@@ -25,8 +25,8 @@ You can include address fields as you want such as "route", "locality", etc and 
 
 ```
 import  React  from  'react'
-
 import GoogleAutoComplete from 'react-google-autocomplete-address-fields';
+import 'react-auto-complete-address-fields/build/GoogleAutoComplete.css';
 
 class  Example  extends  React.Component  {
 	constructor()  {

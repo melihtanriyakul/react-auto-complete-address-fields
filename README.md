@@ -44,6 +44,7 @@ class  Example  extends  React.Component  {
 		return  (
 		<GoogleAutoComplete
 		      apiKey="YOUR_API_KEY"
+		      id = 'location'
 		      fields= {{
 		        streetAddress: "route",
 		        streetAddress2: "administrative_area_level_4",

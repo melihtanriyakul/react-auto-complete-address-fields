@@ -11,6 +11,9 @@ npm i react-auto-complete-address-fields --save
 
 You can include address fields as you want such as "route", "locality", etc and a callback function that you can customize the address data, deriven from Google Autocomplete. You should also include Google API key as a prop for Google Autocomplete.
 
+### Where is 'Père Lachaise Cemetery'?
+![](react-google-api-address-fields.gif)
+
 ### Props
 - **apiKey** -> You can add your Google API Key by using this prop. You can get your Google API Key from the link below:
 	https://developers.google.com/maps/documentation/javascript/get-api-key
